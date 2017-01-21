@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.compra.CadastroLista" >
+
+    <item
+        android:id="@+id/um"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Voltar"/>
+ <item
+        android:id="@+id/dois"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Novo item"/>
+  <item
+        android:id="@+id/tres"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Lista de itens"/>
+</menu>

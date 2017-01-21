@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.compra.TodasAsListas" >
+
+    <item
+        android:id="@+id/dez"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Voltar"/>
+ <item
+        android:id="@+id/onze"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Novo lista"/>
+</menu>

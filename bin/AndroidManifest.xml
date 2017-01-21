@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.compra"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="22" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CadastroLista"
+            android:label="@string/title_activity_cadastro_lista" >
+        </activity>
+        <activity
+            android:name=".TodasAsListas"
+            android:label="@string/title_activity_todas_as_listas" >
+        </activity>
+        <activity
+            android:name=".CadastrarItem"
+            android:label="@string/title_activity_cadastrar_item" >
+        </activity>
+        <activity
+            android:name=".ListarCompras"
+            android:label="@string/title_activity_listar_compras" >
+        </activity>
+        <activity
+            android:name=".ListarItens"
+            android:label="@string/title_activity_listar_itens" >
+        </activity>
+        <activity
+            android:name=".FazerCompra"
+            android:label="@string/title_activity_fazer_compra" >
+        </activity>
+        <activity
+            android:name=".EditarItem"
+            android:label="@string/title_activity_editar_item" >
+        </activity>
+        <activity
+            android:name=".EditarLista"
+            android:label="@string/title_activity_editar_lista" >
+        </activity>
+        <activity
+            android:name=".TratarCompra"
+            android:label="@string/title_activity_tratar_compra" >
+        </activity>
+        <activity
+            android:name=".ItemCompra"
+            android:label="@string/title_activity_item_compra" >
+        </activity>
+    </application>
+
+</manifest>

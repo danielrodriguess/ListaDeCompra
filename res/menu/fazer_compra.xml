@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.compra.FazerCompra" >
+
+    <item
+        android:id="@+id/voltando"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Voltar"/>
+  <item
+        android:id="@+id/itens"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Itens de venda"/>
+</menu>
